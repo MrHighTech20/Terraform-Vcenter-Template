@@ -7,6 +7,10 @@ This project uses Terraform to deploy a virtual machine (VM) on a vSphere enviro
 
 ## Prerequisites
 
+**Optional - Install WSL 2**
+  If you're using Windows, you can install WSL 2 to run Linux. However, Terraform works on any OS, so this step is optional.
+    Follow Microsoft documentation for installing WS2 - https://learn.microsoft.com/en-us/windows/wsl/install
+
 1. **Terraform**: Install Terraform on your system. You can download it from [Terraform's official website](https://www.terraform.io/downloads.html).
 2. **vSphere Access**: Ensure you have access to a vSphere environment with the necessary permissions to create VMs.
 3. **VM Template**: A VM template must already exist in the vSphere environment.
